@@ -35,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F35A1071EE6C7630008B629 /* ios11NFCTest.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = ios11NFCTest.entitlements; path = ../../../Desktop/ios11NFCTest.entitlements; sourceTree = "<group>"; };
 		3F425C451EE6B9A400F21FEC /* ios11NFCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios11NFCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F425C481EE6B9A400F21FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F425C4A1EE6B9A400F21FEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		3F425C681EE6B9A400F21FEC /* ios11NFCTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios11NFCTestUITests.swift; sourceTree = "<group>"; };
 		3F425C6A1EE6B9A400F21FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F425C771EE6BAEE00F21FEC /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
+		3F90BB121EE794AF00C9CC17 /* ios11NFCTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ios11NFCTest.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 		3F425C471EE6B9A400F21FEC /* ios11NFCTest */ = {
 			isa = PBXGroup;
 			children = (
-				3F35A1071EE6C7630008B629 /* ios11NFCTest.entitlements */,
+				3F90BB121EE794AF00C9CC17 /* ios11NFCTest.entitlements */,
 				3F425C481EE6B9A400F21FEC /* AppDelegate.swift */,
 				3F425C4A1EE6B9A400F21FEC /* ViewController.swift */,
 				3F425C4C1EE6B9A400F21FEC /* Main.storyboard */,
@@ -448,7 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ../../Desktop/ios11NFCTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ios11NFCTest/ios11NFCTest.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3L2AQ75CVJ;
@@ -467,7 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ../../Desktop/ios11NFCTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ios11NFCTest/ios11NFCTest.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3L2AQ75CVJ;
