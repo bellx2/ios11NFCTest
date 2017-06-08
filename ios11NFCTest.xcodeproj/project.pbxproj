@@ -12,27 +12,8 @@
 		3F425C4E1EE6B9A400F21FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F425C4C1EE6B9A400F21FEC /* Main.storyboard */; };
 		3F425C501EE6B9A400F21FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F425C4F1EE6B9A400F21FEC /* Assets.xcassets */; };
 		3F425C531EE6B9A400F21FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F425C511EE6B9A400F21FEC /* LaunchScreen.storyboard */; };
-		3F425C5E1EE6B9A400F21FEC /* ios11NFCTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F425C5D1EE6B9A400F21FEC /* ios11NFCTestTests.swift */; };
-		3F425C691EE6B9A400F21FEC /* ios11NFCTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F425C681EE6B9A400F21FEC /* ios11NFCTestUITests.swift */; };
 		3F425C781EE6BBF600F21FEC /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F425C771EE6BAEE00F21FEC /* CoreNFC.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3F425C5A1EE6B9A400F21FEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3F425C3D1EE6B9A400F21FEC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F425C441EE6B9A400F21FEC;
-			remoteInfo = ios11NFCTest;
-		};
-		3F425C651EE6B9A400F21FEC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3F425C3D1EE6B9A400F21FEC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F425C441EE6B9A400F21FEC;
-			remoteInfo = ios11NFCTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3F425C451EE6B9A400F21FEC /* ios11NFCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios11NFCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,12 +23,6 @@
 		3F425C4F1EE6B9A400F21FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F425C521EE6B9A400F21FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F425C541EE6B9A400F21FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F425C591EE6B9A400F21FEC /* ios11NFCTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios11NFCTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F425C5D1EE6B9A400F21FEC /* ios11NFCTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios11NFCTestTests.swift; sourceTree = "<group>"; };
-		3F425C5F1EE6B9A400F21FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F425C641EE6B9A400F21FEC /* ios11NFCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios11NFCTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F425C681EE6B9A400F21FEC /* ios11NFCTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios11NFCTestUITests.swift; sourceTree = "<group>"; };
-		3F425C6A1EE6B9A400F21FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F425C771EE6BAEE00F21FEC /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
 		3F90BB121EE794AF00C9CC17 /* ios11NFCTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ios11NFCTest.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,20 +36,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F425C561EE6B9A400F21FEC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F425C611EE6B9A400F21FEC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,8 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				3F425C471EE6B9A400F21FEC /* ios11NFCTest */,
-				3F425C5C1EE6B9A400F21FEC /* ios11NFCTestTests */,
-				3F425C671EE6B9A400F21FEC /* ios11NFCTestUITests */,
 				3F425C461EE6B9A400F21FEC /* Products */,
 				3F425C761EE6BAEE00F21FEC /* Frameworks */,
 			);
@@ -93,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				3F425C451EE6B9A400F21FEC /* ios11NFCTest.app */,
-				3F425C591EE6B9A400F21FEC /* ios11NFCTestTests.xctest */,
-				3F425C641EE6B9A400F21FEC /* ios11NFCTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,24 +68,6 @@
 				3F425C541EE6B9A400F21FEC /* Info.plist */,
 			);
 			path = ios11NFCTest;
-			sourceTree = "<group>";
-		};
-		3F425C5C1EE6B9A400F21FEC /* ios11NFCTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				3F425C5D1EE6B9A400F21FEC /* ios11NFCTestTests.swift */,
-				3F425C5F1EE6B9A400F21FEC /* Info.plist */,
-			);
-			path = ios11NFCTestTests;
-			sourceTree = "<group>";
-		};
-		3F425C671EE6B9A400F21FEC /* ios11NFCTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3F425C681EE6B9A400F21FEC /* ios11NFCTestUITests.swift */,
-				3F425C6A1EE6B9A400F21FEC /* Info.plist */,
-			);
-			path = ios11NFCTestUITests;
 			sourceTree = "<group>";
 		};
 		3F425C761EE6BAEE00F21FEC /* Frameworks */ = {
@@ -159,42 +98,6 @@
 			productReference = 3F425C451EE6B9A400F21FEC /* ios11NFCTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3F425C581EE6B9A400F21FEC /* ios11NFCTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F425C701EE6B9A400F21FEC /* Build configuration list for PBXNativeTarget "ios11NFCTestTests" */;
-			buildPhases = (
-				3F425C551EE6B9A400F21FEC /* Sources */,
-				3F425C561EE6B9A400F21FEC /* Frameworks */,
-				3F425C571EE6B9A400F21FEC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3F425C5B1EE6B9A400F21FEC /* PBXTargetDependency */,
-			);
-			name = ios11NFCTestTests;
-			productName = ios11NFCTestTests;
-			productReference = 3F425C591EE6B9A400F21FEC /* ios11NFCTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3F425C631EE6B9A400F21FEC /* ios11NFCTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F425C731EE6B9A400F21FEC /* Build configuration list for PBXNativeTarget "ios11NFCTestUITests" */;
-			buildPhases = (
-				3F425C601EE6B9A400F21FEC /* Sources */,
-				3F425C611EE6B9A400F21FEC /* Frameworks */,
-				3F425C621EE6B9A400F21FEC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3F425C661EE6B9A400F21FEC /* PBXTargetDependency */,
-			);
-			name = ios11NFCTestUITests;
-			productName = ios11NFCTestUITests;
-			productReference = 3F425C641EE6B9A400F21FEC /* ios11NFCTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,14 +126,6 @@
 							};
 						};
 					};
-					3F425C581EE6B9A400F21FEC = {
-						CreatedOnToolsVersion = 9.0;
-						TestTargetID = 3F425C441EE6B9A400F21FEC;
-					};
-					3F425C631EE6B9A400F21FEC = {
-						CreatedOnToolsVersion = 9.0;
-						TestTargetID = 3F425C441EE6B9A400F21FEC;
-					};
 				};
 			};
 			buildConfigurationList = 3F425C401EE6B9A400F21FEC /* Build configuration list for PBXProject "ios11NFCTest" */;
@@ -247,8 +142,6 @@
 			projectRoot = "";
 			targets = (
 				3F425C441EE6B9A400F21FEC /* ios11NFCTest */,
-				3F425C581EE6B9A400F21FEC /* ios11NFCTestTests */,
-				3F425C631EE6B9A400F21FEC /* ios11NFCTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -264,20 +157,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F425C571EE6B9A400F21FEC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F425C621EE6B9A400F21FEC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -290,36 +169,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F425C551EE6B9A400F21FEC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F425C5E1EE6B9A400F21FEC /* ios11NFCTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3F425C601EE6B9A400F21FEC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F425C691EE6B9A400F21FEC /* ios11NFCTestUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3F425C5B1EE6B9A400F21FEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3F425C441EE6B9A400F21FEC /* ios11NFCTest */;
-			targetProxy = 3F425C5A1EE6B9A400F21FEC /* PBXContainerItemProxy */;
-		};
-		3F425C661EE6B9A400F21FEC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3F425C441EE6B9A400F21FEC /* ios11NFCTest */;
-			targetProxy = 3F425C651EE6B9A400F21FEC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3F425C4C1EE6B9A400F21FEC /* Main.storyboard */ = {
@@ -481,68 +331,6 @@
 			};
 			name = Release;
 		};
-		3F425C711EE6B9A400F21FEC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J3THN542A8;
-				INFOPLIST_FILE = ios11NFCTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.media-inc.ios11NFCTestTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios11NFCTest.app/ios11NFCTest";
-			};
-			name = Debug;
-		};
-		3F425C721EE6B9A400F21FEC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = J3THN542A8;
-				INFOPLIST_FILE = ios11NFCTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.media-inc.ios11NFCTestTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios11NFCTest.app/ios11NFCTest";
-			};
-			name = Release;
-		};
-		3F425C741EE6B9A400F21FEC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = J3THN542A8;
-				INFOPLIST_FILE = ios11NFCTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.media-inc.ios11NFCTestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ios11NFCTest;
-			};
-			name = Debug;
-		};
-		3F425C751EE6B9A400F21FEC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = J3THN542A8;
-				INFOPLIST_FILE = ios11NFCTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.media-inc.ios11NFCTestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ios11NFCTest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,24 +348,6 @@
 			buildConfigurations = (
 				3F425C6E1EE6B9A400F21FEC /* Debug */,
 				3F425C6F1EE6B9A400F21FEC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3F425C701EE6B9A400F21FEC /* Build configuration list for PBXNativeTarget "ios11NFCTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F425C711EE6B9A400F21FEC /* Debug */,
-				3F425C721EE6B9A400F21FEC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3F425C731EE6B9A400F21FEC /* Build configuration list for PBXNativeTarget "ios11NFCTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F425C741EE6B9A400F21FEC /* Debug */,
-				3F425C751EE6B9A400F21FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
